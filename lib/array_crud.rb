@@ -7,7 +7,7 @@ four = [6, 7, 8, 9]
 end
 
 def add_element_to_end_of_array(array, element)
-array.push(element)
+array.shovel(element)
 end
 
 def add_element_to_start_of_array(array, element)
