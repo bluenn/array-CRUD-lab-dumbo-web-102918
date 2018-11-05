@@ -15,11 +15,11 @@ array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-array.pop[size - 1]
+array.pop(array[size - 1])
 end
 
 def remove_element_from_start_of_array(array)
-array.shift[0]
+array.shift(array[0])
 end
 
 def retrieve_element_from_index(array, index_number)
